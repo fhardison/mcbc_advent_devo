@@ -1,0 +1,33 @@
+baseURL = 'https://amindforlanguage.com/mcbc_advent_devo/'
+languageCode = 'en-us'
+publishDir = 'docs'
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+title = 'Advent Meditations with My Church Family'
+
+summaryLength = 0
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Contents"
+url = "/posts/contents"
+weight = 2
+
+
+[params]
+  homepage_button_link = 'posts/contents'
+  homepage_button_text = 'Read'
+  homepage_intro = 'Daily readings for the Advent season and Christmas Day'
+
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+
+  [params.logo]
+   #   mobile = "/images/logo-mobile.svg"
+   #   standard  = "/images/logo.svg"
